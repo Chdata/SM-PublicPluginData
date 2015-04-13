@@ -105,6 +105,7 @@ stock DisplayProfileTo(iClient, const String:szSteamId2[])
 
 public MOTDFailureCallback(iClient, MOTDFailureReason:iReason)
 {
+    PrintToChat(iClient, "[SM] Cannot show profile, you have HTML motds disabled.");
 }
 
 stock bool:GetCommunityIDString(const String:SteamID[], String:CommunityID[], const CommunityIDSize) 
