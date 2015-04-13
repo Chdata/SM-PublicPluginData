@@ -116,7 +116,7 @@ stock DisplayProfileTo(iClient, const String:szSteamId2[])
     if (iClient)
     {
         //ShowMOTDPanel(iClient, "Steam Profile", szLink, MOTDPANEL_TYPE_URL);
-        AdvMOTD_ShowMOTDPanel(iClient, "Steam Profile", szLink, MOTDPANEL_TYPE_URL, true, true, true, MOTDFailureCallback);
+        AdvMOTD_ShowMOTDPanel(iClient, "Steam Profile", szLink, MOTDPANEL_TYPE_URL, true, false, true, MOTDFailureCallback);
     }
     else
     {
